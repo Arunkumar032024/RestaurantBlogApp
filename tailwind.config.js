@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         
+      },
+      backgroundImage:{
+        'banner-image': "url('./assets/images/index/banner.webp')"
       }
 
     },
