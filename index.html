@@ -35,11 +35,29 @@
 
     <!-- main section -->
     <main class="p-1">
-        <section class="banner bg-cover bg-center bg-no-repeat w-full h-[80vh] relative after:absolute after:content-[''] after:bg-[#0009] after:z-0 after:left-0 after:right-0 after:top-0 after:bottom-0 flex items-center justify-center flex-col gap-3 text-white" style="background-image: url('./assets/images/index/banner.webp');">
+        <section class="banner bg-cover bg-center bg-no-repeat w-full h-[80vh] relative after:absolute after:content-[''] after:bg-[#0009] after:z-0 after:left-0 after:right-0 after:top-0 after:bottom-0 flex items-center justify-center flex-col gap-3 text-white md:h-[100vh]" style="background-image: url('./assets/images/index/banner.webp');">
             <p class="z-10 font-extrabold text-center text-sm md:text-lg">HERE YOU CAN FIND DELECIOUS FOODS</p>
             <p class="z-10 font-extrabold text-4xl text-center md:text-6xl">ASIAN<br>RESTAURANT</p>
             <p class="z-10 font-extrabold text-center text-xs md:text-sm">Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a nisl non, tempor interdum nisl.</p>
-            <button class="z-10 px-5 font-extrabold py-3 bg-red-400 rounded-sm uppercase text-sm">order right now</button>
+            <button class="z-10 px-5 font-extrabold py-3 bg-red-400 rounded-sm uppercase text-sm active:scale-[0.99]">order right now</button>
+        </section>
+
+        <section class="cook py-20 text-white lg:flex lg:justify-center lg:items-center">
+            <div class="bg-blue-400 max-w-fit mx-auto lg:mx-0"><img src="./assets/images/index/cook1.jpg" alt="" class="w-[70vw] xs:w-auto"></div>
+            <div class="bg-red-400 w-[90vw] text-center mx-auto py-10 lg:w-auto lg:py-auto lg:mx-0 lg: lg:py-16 lg:px-24">
+                <h2 class="uppercase text-xl font-bold mb-3 lg:mb-5 lg:text-3xl">we cook delicious</h2>
+                <div class="bg-white bg-opacity-5 p-5">
+                    <p class="uppercase text-xs font-bold mb-5 lg:text-lg">you can call us on:</p>
+                    <p><a href="#" class="font-bold text-sm lg:text-lg">+1234567890</a></p>
+                </div>
+                <p class="bg-white bg-opacity-5  my-5 inline-block p-2 rounded-full lg:text-lg">OR</p>
+                <div>
+                    <button class="cursor-pointer px-3 py-1 uppercase bg-white rounded-sm text-red-300 font-bold lg:px-8 lg:py-4 active:scale-[0.99]">order now</button>
+                </div>
+            </div>
+            <div class="bg-blue-400 max-w-fit mx-auto  lg:mx-0"><img src="./assets/images/index/cook2.jpg" alt=""  class="w-[70vw] xs:w-auto"></div>
+            
+            
         </section>
     </main>
     <!-- End main section -->
