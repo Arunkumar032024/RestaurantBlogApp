@@ -6,7 +6,7 @@
     <meta name="description" content="Discover delicious recipes, food trends, and culinary tips on our restaurant blog app. Powered by Tailwind CSS for a sleek and responsive design. Explore mouthwatering content curated for food enthusiasts.">
     <!-- to add favicon -->
     <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
-    <title>Restaurant Blog App</title>
+    <title>Restaurant App</title>
     <!-- to add font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- to add font family -->
@@ -22,7 +22,7 @@
 
 <body class="bg-slate-200">
     <!-- navbar section -->
-  <nav class="flex  p-5 text-white items-center justify-evenly z-10">
+    <nav class="flex  p-5 text-white items-center justify-evenly z-10">
         <i class="fa-solid fa-bars px-2 py-1 bg-red-400 text-lg md:hidden"></i>
         <ul class="absolute top-16 bg-slate-200 w-full z-50 text-center hidden text-black md:flex md:static md:w-1/2 md:items-center md:justify-evenly">
             <li class="my-3 md:my-0"><a href="#" class="uppercase">home</a></li>
@@ -34,9 +34,34 @@
     <!-- End navbar section -->
 
     <!-- main section -->
+    <main class="p-1">
+        <section class="banner bg-cover bg-center bg-no-repeat w-full h-[80vh] relative after:absolute after:content-[''] after:bg-[#0009] after:z-0 after:left-0 after:right-0 after:top-0 after:bottom-0 flex items-center justify-center flex-col gap-3 text-white" style="background-image: url('./assets/images/index/banner.webp');">
+            <p class="z-10 font-extrabold text-center text-sm md:text-lg">HERE YOU CAN FIND DELECIOUS FOODS</p>
+            <p class="z-10 font-extrabold text-4xl text-center md:text-6xl">ASIAN<br>RESTAURANT</p>
+            <p class="z-10 font-extrabold text-center text-xs md:text-sm">Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a nisl non, tempor interdum nisl.</p>
+            <button class="z-10 px-5 font-extrabold py-3 bg-red-400 rounded-sm uppercase text-sm">order right now</button>
+        </section>
+    </main>
     <!-- End main section -->
 
     <!-- footer section -->
+    <footer class="bg-slate-700 text-white p-5 flex flex-col items-center gap-3 md:flex-row md:justify-evenly">
+        <div>
+            <p>Copyright &copy; 2024 by <a href="#" class="hover:underline hover:text-red-400">Developer AK</a></p>
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+            <i class="fa-brands fa-whatsapp p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+            <i class="fa-brands fa-x-twitter p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+            <i class="fa-brands fa-linkedin-in p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+            <i class="fa-brands fa-instagram p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+            <i class="fa-brands fa-youtube p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+            <i class="fa-brands fa-google p-2 hover:bg-gray-400 rounded-full cursor-pointer hover:text-red-400"></i>
+        </div>
+        <div>
+            <p>Design by <a href="arunkumar032024@gmail.com" class="hover:underline hover:text-red-400">Arun kumar</a></p>
+        </div>
+    </footer>
     <!-- End footer section -->
 
     <script src="./assets/js/main.js"></script>
